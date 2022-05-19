@@ -1,0 +1,29 @@
+{
+	"multipart": [
+		{ "when": { "age": 0 },
+			"apply": [
+				{ "model": "crop/nether_wart_stage_0" },
+				{ "model": "crop/nether_wart_stage_0_mirrored" }
+			]
+		},
+		{ "when": { "age": 1 },
+			"apply": [
+				{ "model": "crop/nether_wart_stage_1" },
+				{ "model": "crop/nether_wart_stage_1_mirrored" }
+			]
+		},
+		{ "when": { "age": 2 },
+			"apply": [
+				{ "model": "crop/nether_wart_stage_2" },
+				{ "model": "crop/nether_wart_stage_2_mirrored" }
+			]
+		},
+		{ "when": { "age": 3 },
+			"apply": [
+				{ "model": "crop/nether_wart_stage_3" },
+				{ "model": "crop/nether_wart_stage_3_mirrored" }
+			]
+		}
+	]
+}
+

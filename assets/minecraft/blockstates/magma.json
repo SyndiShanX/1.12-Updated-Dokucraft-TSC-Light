@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "normal": [
+      { "model": "magma/0", "weight": 5 },
+      { "model": "magma/1", "weight": 5 },
+      { "model": "magma/2", "weight": 3 }
+    ]
+  }
+}

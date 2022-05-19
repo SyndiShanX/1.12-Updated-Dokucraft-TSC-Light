@@ -1,0 +1,58 @@
+{ "multipart": [
+    { "when": { "south": true },
+      "apply": [
+      	{ "model": "vines/vine" },
+      	{ "model": "vines/vine_1" },
+      	{ "model": "vines/vine_2" }
+      ]
+    },
+    { "when": { "west": true },
+      "apply": [
+      	{ "model": "vines/vine", "y": 90 },
+      	{ "model": "vines/vine_1", "y": 90 },
+      	{ "model": "vines/vine_1", "y": 90 }
+      ]
+    },
+    { "when": { "north": true },
+      "apply": [
+      	{ "model": "vines/vine", "y": 180 },
+      	{ "model": "vines/vine_1", "y": 180 },
+      	{ "model": "vines/vine_2", "y": 180 }
+      ]
+    },
+    { "when": { "east": true },
+      "apply": [
+      	{ "model": "vines/vine", "y": 270 },
+      	{ "model": "vines/vine_1", "y": 270 },
+      	{ "model": "vines/vine_2", "y": 270 }
+      ]
+    },
+    { "when": { "OR": [
+        { "up": true, "south": true },
+        { "up": true, "south": false, "north": false, "west": false, "east": false }
+      ]},
+      "apply": { "model": "vines/vine_hanging" }
+    },
+    { "when": { "up": true, "south": false, "north": true },
+      "apply": { "model": "vines/vine_hanging", "y": 180 }
+    },
+    { "when": { "up": true, "south": false, "north": false, "west": true },
+      "apply": { "model": "vines/vine_hanging", "y": 90 }
+    },
+    { "when": { "up": true, "south": false, "north": false, "west": false, "east": true },
+      "apply": { "model": "vines/vine_hanging", "y": 270 }
+    },
+    { "when": { "up": true, "south": true },
+      "apply": { "model": "vines/vine_hanging_connection" }
+    },
+    { "when": { "up": true, "south": false, "north": true },
+      "apply": { "model": "vines/vine_hanging_connection", "y": 180 }
+    },
+    { "when": { "up": true, "south": false, "north": false, "west": true },
+      "apply": { "model": "vines/vine_hanging_connection", "y": 90 }
+    },
+    { "when": { "up": true, "south": false, "north": false, "west": false, "east": true },
+      "apply": { "model": "vines/vine_hanging_connection", "y": 270 }
+    }
+  ]
+}

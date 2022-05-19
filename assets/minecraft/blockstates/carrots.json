@@ -1,0 +1,52 @@
+{ "multipart": [
+    { "when": { "age": 0 },
+      "apply": [
+        { "model": "carrots_stage0" },
+		{ "model": "crop/carrots_stage0_mirrored" }
+      ]
+    },
+	{ "when": { "age": 1 },
+      "apply": [
+        { "model": "carrots_stage0" },
+		{ "model": "crop/carrots_stage0_mirrored" }
+      ]
+    },
+	{ "when": { "age": 2 },
+      "apply": [
+        { "model": "carrots_stage1" },
+		{ "model": "crop/carrots_stage1_mirrored" }
+      ]
+    },
+	{ "when": { "age": 3 },
+      "apply": [
+        { "model": "carrots_stage1" },
+		{ "model": "crop/carrots_stage1_mirrored" }
+      ]
+    },
+	{ "when": { "age": 4 },
+      "apply": [
+        { "model": "carrots_stage2" },
+		{ "model": "crop/carrots_stage2_mirrored" }
+      ]
+    },
+	{ "when": { "age": 5 },
+      "apply": [
+        { "model": "carrots_stage2" },
+		{ "model": "crop/carrots_stage2_mirrored" }
+      ]
+    },
+	{ "when": { "age": 6 },
+      "apply": [
+        { "model": "carrots_stage2" },
+		{ "model": "crop/carrots_stage2_mirrored" }
+      ]
+    },
+	{ "when": { "age": 7 },
+      "apply": [
+        { "model": "carrots_stage3" },
+		{ "model": "crop/carrots_stage3_mirrored" }
+      ]
+    },	
+    { "apply": { "model": "roots/crop_roots" } }
+  ]
+}

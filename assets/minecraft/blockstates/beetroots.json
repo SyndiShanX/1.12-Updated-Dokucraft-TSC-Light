@@ -1,0 +1,28 @@
+{ "multipart": [
+    { "when": { "age": 0 },
+      "apply": [
+        { "model": "beetroots_stage0" },
+		{ "model": "crop/beetroots_stage0_mirrored" }
+      ]
+    },
+	{ "when": { "age": 1 },
+      "apply": [
+        { "model": "beetroots_stage1" },
+		{ "model": "crop/beetroots_stage1_mirrored" }
+      ]
+    },
+	{ "when": { "age": 2 },
+      "apply": [
+        { "model": "beetroots_stage2" },
+		{ "model": "crop/beetroots_stage2_mirrored" }
+      ]
+    },
+	{ "when": { "age": 3 },
+      "apply": [
+        { "model": "beetroots_stage3" },
+		{ "model": "crop/beetroots_stage3_mirrored" }
+      ]
+    },
+    { "apply": { "model": "roots/crop_roots" } }
+  ]
+}

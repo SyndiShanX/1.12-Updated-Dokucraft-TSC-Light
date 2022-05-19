@@ -1,0 +1,8 @@
+{
+	"parent": "block/inner_stairz",
+	"textures": {
+		"top": "blocks/cobblestone/0",
+		"side": "blocks/cobblestone/0",
+		"bottom": "blocks/cobblestone/0"
+	}
+}

@@ -1,0 +1,278 @@
+{ "multipart": [
+    { "when": { "age": 0 },
+      "apply": { "model": "fruit_stems/pumpkin/stem_stage_0" }
+    },
+    { "when": { "age": 1 },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_stage_1" },
+        { "model": "fruit_stems/pumpkin/stem_stage_1", "y": 90 },
+        { "model": "fruit_stems/pumpkin/stem_stage_1", "y": 180 },
+        { "model": "fruit_stems/pumpkin/stem_stage_1", "y": 270 }
+      ]
+    },
+    { "when": { "age": 2 },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_stage_2" },
+        { "model": "fruit_stems/pumpkin/stem_stage_2", "y": 90 },
+        { "model": "fruit_stems/pumpkin/stem_stage_2", "y": 180 },
+        { "model": "fruit_stems/pumpkin/stem_stage_2", "y": 270 }
+      ]
+    },
+    { "when": { "age": 3 },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_stage_3" },
+        { "model": "fruit_stems/pumpkin/stem_stage_3", "y": 90 },
+        { "model": "fruit_stems/pumpkin/stem_stage_3", "y": 180 },
+        { "model": "fruit_stems/pumpkin/stem_stage_3", "y": 270 }
+      ]
+    },
+    { "when": { "age": 4 },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_stage_4" },
+        { "model": "fruit_stems/pumpkin/stem_stage_4", "y": 90 },
+        { "model": "fruit_stems/pumpkin/stem_stage_4", "y": 180 },
+        { "model": "fruit_stems/pumpkin/stem_stage_4", "y": 270 }
+      ]
+    },
+    { "when": { "age": 5 },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_stage_5" },
+        { "model": "fruit_stems/pumpkin/stem_stage_5", "y": 90 },
+        { "model": "fruit_stems/pumpkin/stem_stage_5", "y": 180 },
+        { "model": "fruit_stems/pumpkin/stem_stage_5", "y": 270 }
+      ]
+    },
+    { "when": { "age": 6 },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_stage_6" },
+        { "model": "fruit_stems/pumpkin/stem_stage_6", "y": 90 },
+        { "model": "fruit_stems/pumpkin/stem_stage_6", "y": 180 },
+        { "model": "fruit_stems/pumpkin/stem_stage_6", "y": 270 }
+      ]
+    },
+    { "when": { "age": 7 },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_stage_7" },
+        { "model": "fruit_stems/pumpkin/stem_stage_7", "y": 90 },
+        { "model": "fruit_stems/pumpkin/stem_stage_7", "y": 180 },
+        { "model": "fruit_stems/pumpkin/stem_stage_7", "y": 270 }
+      ]
+    },
+		{ "when": { "facing": "west" },
+      "apply": { "model": "fruit_stems/pumpkin/lower_stem" }
+    },
+    { "when": { "facing": "west" },
+      "apply": { "model": "fruit_stems/pumpkin/stem_stub" }
+    },
+    { "when": { "facing": "west" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_connection_1", "weight": 2001 },
+        { "model": "fruit_stems/pumpkin/stem_connection_2", "weight": 1002 },
+        { "model": "fruit_stems/pumpkin/stem_connection_3", "weight": 2103 },
+        { "model": "fruit_stems/pumpkin/stem_connection_4", "weight": 2104 }
+      ]
+    },
+    { "when": { "facing": "west" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/upper_stem_1", "weight": 1010 },
+        { "model": "fruit_stems/pumpkin/upper_stem_2", "weight": 1009 },
+        { "model": "fruit_stems/pumpkin/upper_stem_3", "weight": 1011 },
+        { "model": "fruit_stems/pumpkin/upper_stem_4", "weight": 1012 }
+      ]
+    },
+    { "when": { "facing": "west" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/lower_stem_left_1", "weight": 2801 },
+        { "model": "fruit_stems/pumpkin/lower_stem_left_2", "weight": 1202 },
+        { "model": "fruit_stems/pumpkin/lower_stem_left_3", "weight": 303 },
+        { "model": "fruit_stems/pumpkin/lower_stem_left_4", "weight": 304 },
+        { "model": "air", "weight": 605 }
+      ]
+    },
+    { "when": { "facing": "west" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/lower_stem_right_1", "weight": 2806 },
+        { "model": "fruit_stems/pumpkin/lower_stem_right_2", "weight": 1207 },
+        { "model": "fruit_stems/pumpkin/lower_stem_right_3", "weight": 308 },
+        { "model": "fruit_stems/pumpkin/lower_stem_right_4", "weight": 309 },
+        { "model": "air", "weight": 610 }
+      ]
+    },
+    { "when": { "facing": "west" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_connection_left_1", "weight": 1005 },
+        { "model": "fruit_stems/pumpkin/stem_connection_left_2", "weight": 1006 },
+        { "model": "air", "weight": 3007 }
+      ]
+    },
+    { "when": { "facing": "west" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_connection_right_1", "weight": 1008 },
+        { "model": "fruit_stems/pumpkin/stem_connection_right_2", "weight": 1009 },
+        { "model": "air", "weight": 3010 }
+      ]
+    },
+    { "when": { "facing": "east" },
+      "apply": { "model": "fruit_stems/pumpkin/lower_stem", "y": 180 }
+    },
+    { "when": { "facing": "east" },
+      "apply": { "model": "fruit_stems/pumpkin/stem_stub", "y": 180 }
+    },
+    { "when": { "facing": "east" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_connection_1", "weight": 2001, "y": 180 },
+        { "model": "fruit_stems/pumpkin/stem_connection_2", "weight": 1002, "y": 180 },
+        { "model": "fruit_stems/pumpkin/stem_connection_3", "weight": 2103, "y": 180 },
+        { "model": "fruit_stems/pumpkin/stem_connection_4", "weight": 2104, "y": 180 }
+      ]
+    },
+    { "when": { "facing": "east" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/upper_stem_1", "weight": 1010, "y": 180 },
+        { "model": "fruit_stems/pumpkin/upper_stem_2", "weight": 1009, "y": 180 },
+        { "model": "fruit_stems/pumpkin/upper_stem_3", "weight": 1011, "y": 180 },
+        { "model": "fruit_stems/pumpkin/upper_stem_4", "weight": 1012, "y": 180 }
+      ]
+    },
+    { "when": { "facing": "east" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/lower_stem_left_1", "weight": 2801, "y": 180 },
+        { "model": "fruit_stems/pumpkin/lower_stem_left_2", "weight": 1202, "y": 180 },
+        { "model": "fruit_stems/pumpkin/lower_stem_left_3", "weight": 303, "y": 180 },
+        { "model": "fruit_stems/pumpkin/lower_stem_left_4", "weight": 304, "y": 180 },
+        { "model": "air", "weight": 605 }
+      ]
+    },
+    { "when": { "facing": "east" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/lower_stem_right_1", "weight": 2806, "y": 180 },
+        { "model": "fruit_stems/pumpkin/lower_stem_right_2", "weight": 1207, "y": 180 },
+        { "model": "fruit_stems/pumpkin/lower_stem_right_3", "weight": 308, "y": 180 },
+        { "model": "fruit_stems/pumpkin/lower_stem_right_4", "weight": 309, "y": 180 },
+        { "model": "air", "weight": 610 }
+      ]
+    },
+    { "when": { "facing": "east" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_connection_left_1", "weight": 1005, "y": 180 },
+        { "model": "fruit_stems/pumpkin/stem_connection_left_2", "weight": 1006, "y": 180 },
+        { "model": "air", "weight": 3007 }
+      ]
+    },
+    { "when": { "facing": "east" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_connection_right_1", "weight": 1008, "y": 180 },
+        { "model": "fruit_stems/pumpkin/stem_connection_right_2", "weight": 1009, "y": 180 },
+        { "model": "air", "weight": 3010 }
+      ]
+    },
+    { "when": { "facing": "north" },
+      "apply": { "model": "fruit_stems/pumpkin/lower_stem", "y": 90 }
+    },
+    { "when": { "facing": "north" },
+      "apply": { "model": "fruit_stems/pumpkin/stem_stub", "y": 90 }
+    },
+    { "when": { "facing": "north" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_connection_1", "weight": 2001, "y": 90 },
+        { "model": "fruit_stems/pumpkin/stem_connection_2", "weight": 1002, "y": 90 },
+        { "model": "fruit_stems/pumpkin/stem_connection_3", "weight": 2103, "y": 90 },
+        { "model": "fruit_stems/pumpkin/stem_connection_4", "weight": 2104, "y": 90 }
+      ]
+    },
+    { "when": { "facing": "north" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/upper_stem_1", "weight": 1010, "y": 90 },
+        { "model": "fruit_stems/pumpkin/upper_stem_2", "weight": 1009, "y": 90 },
+        { "model": "fruit_stems/pumpkin/upper_stem_3", "weight": 1011, "y": 90 },
+        { "model": "fruit_stems/pumpkin/upper_stem_4", "weight": 1012, "y": 90 }
+      ]
+    },
+    { "when": { "facing": "north" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/lower_stem_left_1", "weight": 2801, "y": 90 },
+        { "model": "fruit_stems/pumpkin/lower_stem_left_2", "weight": 1202, "y": 90 },
+        { "model": "fruit_stems/pumpkin/lower_stem_left_3", "weight": 303, "y": 90 },
+        { "model": "fruit_stems/pumpkin/lower_stem_left_4", "weight": 304, "y": 90 },
+        { "model": "air", "weight": 605 }
+      ]
+    },
+    { "when": { "facing": "north" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/lower_stem_right_1", "weight": 2806, "y": 90 },
+        { "model": "fruit_stems/pumpkin/lower_stem_right_2", "weight": 1207, "y": 90 },
+        { "model": "fruit_stems/pumpkin/lower_stem_right_3", "weight": 308, "y": 90 },
+        { "model": "fruit_stems/pumpkin/lower_stem_right_4", "weight": 309, "y": 90 },
+        { "model": "air", "weight": 610 }
+      ]
+    },
+    { "when": { "facing": "north" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_connection_left_1", "weight": 1005, "y": 90 },
+        { "model": "fruit_stems/pumpkin/stem_connection_left_2", "weight": 1006, "y": 90 },
+        { "model": "air", "weight": 3007 }
+      ]
+    },
+    { "when": { "facing": "north" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_connection_right_1", "weight": 1008, "y": 90 },
+        { "model": "fruit_stems/pumpkin/stem_connection_right_2", "weight": 1009, "y": 90 },
+        { "model": "air", "weight": 3010 }
+      ]
+    },
+    { "when": { "facing": "south" },
+      "apply": { "model": "fruit_stems/pumpkin/lower_stem", "y": 270 }
+    },
+    { "when": { "facing": "south" },
+      "apply": { "model": "fruit_stems/pumpkin/stem_stub", "y": 270 }
+    },
+    { "when": { "facing": "south" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_connection_1", "weight": 2001, "y": 270 },
+        { "model": "fruit_stems/pumpkin/stem_connection_2", "weight": 1002, "y": 270 },
+        { "model": "fruit_stems/pumpkin/stem_connection_3", "weight": 2103, "y": 270 },
+        { "model": "fruit_stems/pumpkin/stem_connection_4", "weight": 2104, "y": 270 }
+      ]
+    },
+    { "when": { "facing": "south" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/upper_stem_1", "weight": 1010, "y": 270 },
+        { "model": "fruit_stems/pumpkin/upper_stem_2", "weight": 1009, "y": 270 },
+        { "model": "fruit_stems/pumpkin/upper_stem_3", "weight": 1011, "y": 270 },
+        { "model": "fruit_stems/pumpkin/upper_stem_4", "weight": 1012, "y": 270 }
+      ]
+    },
+    { "when": { "facing": "south" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/lower_stem_left_1", "weight": 2801, "y": 270 },
+        { "model": "fruit_stems/pumpkin/lower_stem_left_2", "weight": 1202, "y": 270 },
+        { "model": "fruit_stems/pumpkin/lower_stem_left_3", "weight": 303, "y": 270 },
+        { "model": "fruit_stems/pumpkin/lower_stem_left_4", "weight": 304, "y": 270 },
+        { "model": "air", "weight": 605 }
+      ]
+    },
+    { "when": { "facing": "south" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/lower_stem_right_1", "weight": 2806, "y": 270 },
+        { "model": "fruit_stems/pumpkin/lower_stem_right_2", "weight": 1207, "y": 270 },
+        { "model": "fruit_stems/pumpkin/lower_stem_right_3", "weight": 308, "y": 270 },
+        { "model": "fruit_stems/pumpkin/lower_stem_right_4", "weight": 309, "y": 270 },
+        { "model": "air", "weight": 610 }
+      ]
+    },
+    { "when": { "facing": "south" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_connection_left_1", "weight": 1005, "y": 270 },
+        { "model": "fruit_stems/pumpkin/stem_connection_left_2", "weight": 1006, "y": 270 },
+        { "model": "air", "weight": 3007 }
+      ]
+    },
+    { "when": { "facing": "south" },
+      "apply": [
+        { "model": "fruit_stems/pumpkin/stem_connection_right_1", "weight": 1008, "y": 270 },
+        { "model": "fruit_stems/pumpkin/stem_connection_right_2", "weight": 1009, "y": 270 },
+        { "model": "air", "weight": 3010 }
+      ]
+    }
+  ]
+}

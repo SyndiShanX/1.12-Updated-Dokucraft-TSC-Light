@@ -1,0 +1,108 @@
+{ "multipart": [
+    { "apply": [
+        { "model": "fern/fern_ground" },
+        { "model": "fern/fern_ground", "y": 90 },
+        { "model": "fern/fern_ground", "y": 180 },
+        { "model": "fern/fern_ground", "y": 270 }
+      ]
+    },
+    { "apply": [
+        { "model": "fern/fern_1",  "weight": 1501 },
+        { "model": "fern/fern_2",  "weight": 1502 },
+        { "model": "fern/fern_3",  "weight": 1503 },
+        { "model": "fern/fern_4",  "weight": 1504 },
+        { "model": "fern/fern_5",  "weight": 1505 },
+        { "model": "fern/fern_6",  "weight": 1506 },
+        { "model": "fern/fern_7",  "weight": 1507 },
+        { "model": "fern/fern_8",  "weight": 1508 },
+        { "model": "fern/fern_9",  "weight": 1509 },
+        { "model": "fern/fern_10", "weight": 1510 },
+        { "model": "fern/fern_11", "weight": 1511 },
+        { "model": "fern/fern_12", "weight": 1512 },
+        { "model": "fern/fern_13", "weight": 1513 },
+        { "model": "fern/fern_14", "weight": 1514 },
+        { "model": "fern/fern_15", "weight": 1515 },
+        { "model": "fern/fern_16", "weight": 1516 },
+        { "model": "fern/fern_17", "weight": 1517 },
+        { "model": "fern/fern_18", "weight": 1518 },
+        { "model": "fern/fern_19", "weight": 1519 },
+        { "model": "fern/fern_20", "weight": 1520 }
+      ]
+    },
+    { "apply": [
+        { "model": "fern/fern_1",  "y": 90, "weight": 2511 },
+        { "model": "fern/fern_2",  "y": 90, "weight": 2505 },
+        { "model": "fern/fern_3",  "y": 90, "weight": 2519 },
+        { "model": "fern/fern_4",  "y": 90, "weight": 2513 },
+        { "model": "fern/fern_5",  "y": 90, "weight": 2515 },
+        { "model": "fern/fern_6",  "y": 90, "weight": 2504 },
+        { "model": "fern/fern_7",  "y": 90, "weight": 2517 },
+        { "model": "fern/fern_8",  "y": 90, "weight": 2512 },
+        { "model": "fern/fern_9",  "y": 90, "weight": 2506 },
+        { "model": "fern/fern_10", "y": 90, "weight": 2502 },
+        { "model": "fern/fern_11", "y": 90, "weight": 2514 },
+        { "model": "fern/fern_12", "y": 90, "weight": 2507 },
+        { "model": "fern/fern_13", "y": 90, "weight": 2503 },
+        { "model": "fern/fern_14", "y": 90, "weight": 2520 },
+        { "model": "fern/fern_15", "y": 90, "weight": 2516 },
+        { "model": "fern/fern_16", "y": 90, "weight": 2501 },
+        { "model": "fern/fern_17", "y": 90, "weight": 2509 },
+        { "model": "fern/fern_18", "y": 90, "weight": 2508 },
+        { "model": "fern/fern_19", "y": 90, "weight": 2518 },
+        { "model": "fern/fern_20", "y": 90, "weight": 2510 }
+      ]
+    },
+    { "apply": [
+        { "model": "fern/fern_1",  "y": 180, "weight": 3514 },
+        { "model": "fern/fern_2",  "y": 180, "weight": 3518 },
+        { "model": "fern/fern_3",  "y": 180, "weight": 3509 },
+        { "model": "fern/fern_4",  "y": 180, "weight": 3508 },
+        { "model": "fern/fern_5",  "y": 180, "weight": 3512 },
+        { "model": "fern/fern_6",  "y": 180, "weight": 3510 },
+        { "model": "fern/fern_7",  "y": 180, "weight": 3519 },
+        { "model": "fern/fern_8",  "y": 180, "weight": 3515 },
+        { "model": "fern/fern_9",  "y": 180, "weight": 3511 },
+        { "model": "fern/fern_10", "y": 180, "weight": 3505 },
+        { "model": "fern/fern_11", "y": 180, "weight": 3520 },
+        { "model": "fern/fern_12", "y": 180, "weight": 3516 },
+        { "model": "fern/fern_13", "y": 180, "weight": 3503 },
+        { "model": "fern/fern_14", "y": 180, "weight": 3517 },
+        { "model": "fern/fern_15", "y": 180, "weight": 3501 },
+        { "model": "fern/fern_16", "y": 180, "weight": 3513 },
+        { "model": "fern/fern_17", "y": 180, "weight": 3507 },
+        { "model": "fern/fern_18", "y": 180, "weight": 3502 },
+        { "model": "fern/fern_19", "y": 180, "weight": 3504 },
+        { "model": "fern/fern_20", "y": 180, "weight": 3506 }
+      ]
+    },
+    { "apply": [
+        { "model": "fern/fern_1",  "y": 270, "weight": 4513 },
+        { "model": "fern/fern_2",  "y": 270, "weight": 4506 },
+        { "model": "fern/fern_3",  "y": 270, "weight": 4515 },
+        { "model": "fern/fern_4",  "y": 270, "weight": 4518 },
+        { "model": "fern/fern_5",  "y": 270, "weight": 4516 },
+        { "model": "fern/fern_6",  "y": 270, "weight": 4502 },
+        { "model": "fern/fern_7",  "y": 270, "weight": 4504 },
+        { "model": "fern/fern_8",  "y": 270, "weight": 4507 },
+        { "model": "fern/fern_9",  "y": 270, "weight": 4505 },
+        { "model": "fern/fern_10", "y": 270, "weight": 4519 },
+        { "model": "fern/fern_11", "y": 270, "weight": 4520 },
+        { "model": "fern/fern_12", "y": 270, "weight": 4503 },
+        { "model": "fern/fern_13", "y": 270, "weight": 4501 },
+        { "model": "fern/fern_14", "y": 270, "weight": 4512 },
+        { "model": "fern/fern_15", "y": 270, "weight": 4510 },
+        { "model": "fern/fern_16", "y": 270, "weight": 4509 },
+        { "model": "fern/fern_17", "y": 270, "weight": 4514 },
+        { "model": "fern/fern_18", "y": 270, "weight": 4517 },
+        { "model": "fern/fern_19", "y": 270, "weight": 4511 },
+        { "model": "fern/fern_20", "y": 270, "weight": 4508 }
+      ]
+    },
+    { "apply": [
+        { "model": "fern/fern_cross", "weight": 1 },
+        { "model": "fern/fern_cross_mirrored", "weight": 1 },
+        { "model": "fern/fern_stems", "weight": 8 }
+      ]
+    }
+  ]
+}
